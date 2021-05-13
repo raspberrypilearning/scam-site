@@ -8,3 +8,4 @@ last_tested: "2021-05-06"
 steps:
   - title: Introduction
   - title: Get setup
+  - title: Make a page template
