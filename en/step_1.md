@@ -1,20 +1,10 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You're going to make a fake website for a scam product — an amazingly high-tech cloaking device!
 
 ### What you will make
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+[[Embed trinket here]]
 
 --- collapse ---
 ---
@@ -41,19 +31,10 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+  + How to use a template to keep your site looking consistent
+  + How to use the div tag to separate and style your content
+  + How to build a navigation menu that links the pages of your site
+  + How to use CSS to select elements within a particular element
 
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
 
 --- /collapse ---
