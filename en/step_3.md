@@ -107,6 +107,6 @@ The finished code should look like this:
 
 --- /task ---
 
-[[Save]]
+--- save ---
 
 Now you're ready to start filling in those sections!
