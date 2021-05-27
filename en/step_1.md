@@ -1,40 +1,26 @@
 ## Introduction
 
-You're going to make a fake website for a scam product — an amazingly high-tech cloaking device!
+In this project, you're going to make a website for a fake product: an amazingly high-tech cloaking device! The company would like some information about the product, and a gallery of photographs of it in use.
 
-### What you will make
+You will:
+  + Make a template to let you build your pages faster
+  + Create a navigation menu to link your site's pages together
+  + Use CSS selectors to target HTML elements inside other HTML elements
 
-[[Embed trinket here]]
+--- no-print ---
+--- task ---
+### Try it
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+Description of what to do or think about when looking at the example.
+</div>
+<div style="margin-left: 15px;">
+  <iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+</div>
+--- /task ---
+--- /no-print ---
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-  + How to use a template to keep your site looking consistent
-  + How to use the div tag to separate and style your content
-  + How to build a navigation menu that links the pages of your site
-  + How to use CSS to select elements within a particular element
-
-
---- /collapse ---
+--- print-only ---
+![Completed project](images/showcase_static.png)
+--- /print-only ---

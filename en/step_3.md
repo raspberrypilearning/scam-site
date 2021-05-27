@@ -1,17 +1,31 @@
 ## Make a page template
 
-Now that you have the starter files, it's time to build a website that will convince people to buy our spectacular product! The first thing to do is make sure the different pages on the site look good to do this, you're going to create a template page without any real content — it will only have the things that will appear on every page, like the menu and the company logo. You will then copy this template and use it to create all the other pages on your site.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Add an introductory sentence. What will learners achieve by the end of this step?
+</div>
+<div>
+Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
 Open `template.html` in your editor and look at the code. Also, open the page in your web browser, or look at it in the preview.
 
+Notice that the only tag in the `body` of the page right now is a `div` tag with the class `container`. This `div` tag is an invisible box. Next, you'll use CSS to add some style rules to it and make it visible.
+
 --- /task ---
 
-You'll notice that the only tag in the `body` of the page right now is a `div` tag with the class `container`. You'll also notice that you can't see it when you try to view the page. This is because the `div` tag is an invisible box. You'll use CSS to add some style rules to it and make it visible.
+To add your CSS, you first need to add your stylesheet to `template.html`.
 
-### Add CSS to your template
-The first thing you'll need to do is add your stylesheet to your template. You may notice that there's already one stylesheet, called `company_style.css` linked to this page. This sheet contains some rules that you need to make the page look the way the company wants it, but which aren't what you're focusing on learning right now. You might have seen some of them before, and you'll learn others later. Pages can have lots of stylesheets, but you have to be careful that the rules don't contradict each other!
+--- collapse ---
+---
+title: What about the stylesheet that's already there?
+---
+You may notice that there's already one stylesheet, called `company_style.css` linked to this page. This sheet contains some rules that you need to make the page look the way the company wants it, but which aren't what you're focusing on learning right now. You might have seen some of them before, and you'll learn others later. Pages can have lots of stylesheets, but you have to be careful that the rules don't contradict each other!
+
+--- /collapse ---
 
 --- task ---
 
@@ -22,8 +36,6 @@ Add a link to `style.css` inside the `head` tag, like this:
 ```
 
 --- /task ---
-
-### Setup your content box
 
 The design the company wants is the content box over a coloured backgreound that you've probably seen on other websites. At its most basic, it looks like this.
 
@@ -42,6 +54,8 @@ body{
 ```
 
 If you don't like this colour, you can choose your own. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
+
+--- save ---
 
 Look at how `template.html` has changed. Remember, you may need to refresh the page if you're viewing it in your browser.
 
