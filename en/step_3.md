@@ -19,14 +19,6 @@ Notice that the only tag in the `body` of the page right now is a `div` tag with
 
 To add your CSS, you first need to add your stylesheet to `template.html`.
 
---- collapse ---
----
-title: What about the stylesheet that's already there?
----
-You may notice that there's already one stylesheet, called `company_style.css` linked to this page. This sheet contains some rules that you need to make the page look the way the company wants it, but which aren't what you're focusing on learning right now. You might have seen some of them before, and you'll learn others later. Pages can have lots of stylesheets, but you have to be careful that the rules don't contradict each other!
-
---- /collapse ---
-
 --- task ---
 
 Add a link to `style.css` inside the `head` tag, like this:
@@ -36,6 +28,14 @@ Add a link to `style.css` inside the `head` tag, like this:
 ```
 
 --- /task ---
+
+--- collapse ---
+---
+title: What about the stylesheet that's already there?
+---
+You may notice that there's already one stylesheet, called `company_style.css` linked to this page. This sheet contains some rules that you need to make the page look the way the company wants it, but which aren't what you're focusing on learning right now. You might have seen some of them before, and you'll learn others later. Pages can have lots of stylesheets, but you have to be careful that the rules don't contradict each other!
+
+--- /collapse ---
 
 The design the company wants is the content box over a coloured backgreound that you've probably seen on other websites. At its most basic, it looks like this.
 
@@ -61,7 +61,7 @@ Look at how `template.html` has changed. Remember, you may need to refresh the p
 
 --- /task ---
 
-You still can't see the `container` div, but that's fine. You haven't given it any style rules yet, so it's still invisible. Time to fix that!
+You still can't see the `container` div, but that's fine. You haven't given it any style rules yet, so it's still invisible. You'll fix that next.
 
 --- task ---
 
@@ -74,14 +74,6 @@ In `style.css` add a rule that sets a background colour for the `container` clas
 }
 ```
 
-Now refresh `template.html` in your browser and see what's happened.
-
---- /task ---
-
-The `div` is still invisible! This is beacuse there's nothing in it. If a `div` has no elements with any width or height inside it, it will be invisible unless you give it both a `width` and `height` property with CSS rules. But to set an exact height, you would need to know how high everything that you will put into it will be, or the `div` will end beofre its contents, and that would look strange. Instead, if you don't set a height, the `div` will automatically grow to the correct height to contain whatever you put in it. Try that now: 
-
---- task ---
-
 Type some text into the `container` `div` in `template.html`, like this:
 
 ```html
@@ -89,39 +81,45 @@ Type some text into the `container` `div` in `template.html`, like this:
     Hello!
 </div>
 ```
+--- save ---
 
-Now refresh the page and you should see the text in a white box. That's the `div`!
+Now refresh `template.html` in your browser and see what's happened.
 
 --- /task ---
 
-## Add sections to your template
+You should see something like this:
+
+![A webpage with a white box in the middle of a blue background. The box contains the word 'Hello!'](images/filled_container.png)
+
 Now that you have the content box the company wants, you'll need to add the sections you're going to use in the rest of the template, and in making the pages based on it. These will also be `div` tags.
 
 --- task ---
 
-First, delete the text you added to test the `div` in the last step.
+First, delete the text you added to test the `div` in the last step. Then, create three new `div` tags inside of the `container` `div`. Each should have its own class. For now, you'll also type the name of the `div` into the `div`, so you can see it. A `div` tag with nothing in it is invisible!
 
-Then, create three new `div` tags inside of the `container` `div`. Each should have its own class:
-
-  + Give the first `div` the `header` class. It will contain your logo and page heading.
-  + Give the second `div` the `nav` (short for navigation) class. It will contain the menu your visitors will use to get around the site.
-  + Give the last `div` the `main` class. It's where the main content of the page will go. This is the part that will change from page to page.
+  + Give the first `div` the `header` class.
+  + Give the second `div` the `nav` (short for navigation) class.
+  + Give the last `div` the `main` class.
 
 The finished code should look like this:
 
 ```html
 <div class="container">
     <div class="header">
+        <!-- Page titles and the company logo go here -->
+        Header
     </div>
     <div class="nav">
+        <!-- The navigation menu goes here -->
+        Nav
     </div>
     <div class="main">
+        <!-- The main content of the page goes here -->
+        Main
     </div>
 </div>
 ```
 
---- /task ---
-
 --- save ---
 
-Now you're ready to start filling in those sections!
+--- /task ---
