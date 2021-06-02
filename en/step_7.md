@@ -1,8 +1,12 @@
 ## Make a photo gallery 
 
-Now you need to create a gallery of photographs to show off the product in action. Five photographs have been provided for you to use.
-
-[[Gallery preview]]
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+You're going to use your finished template to make a product gallery.
+<div>
+[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+</div>
+</div>
 
 --- task ---
 
@@ -10,11 +14,9 @@ Select all the code in `template.html` and copy it (Edit > Copy), then paste it 
 
 --- /task ---
 
-Once you've pasted the template, you need to add the photos.
-
 --- task ---
 
-Add five `img` tags inside the `main` div in `product.html`. Use the images:
+Now add the photos. Add five `img` tags inside the `main` div in `product.html`. Use the images:
 
   + `product_1.png`
   + `product_2.png`
@@ -32,23 +34,21 @@ Add five `img` tags inside the `main` div in `product.html`. Use the images:
 </div>
 ```
 
---- /task ---
-
 --- save ---
 
---- task ---
-
-Open or preview `product.html`. Notice that the images don't really form a nice gallery, because they're different sizes and they don't evenly fill the container.
-
 --- /task ---
+
+--- task ---
+**Test:** view `product.html`. Notice that the images are different sizes and don't evenly fill the container. 
 
 [Messy gallery]
 
-Of course, as you might expect by now, you can use CSS to fix all of this. The first step is creating a class to work with. You can't just use the `main` class, because it's used on every page and you need to create rules that only apply to this gallery page.
+As you might expect by now, you can use CSS to fix all of this.
+--- /task ---
 
 --- task ---
 
-Add the `gallery` class to the `main` div in `product.html`, like so:
+You can't just use the `main` class for your gallery rules. The `main` class is used on every page and you need to create rules that only apply to this gallery page. Add the `gallery` class to the `main` div in `product.html`:
 
 ```html
 <div class="main gallery">
@@ -58,22 +58,32 @@ One element can have lots of classes. The rules from each class get combined tog
 
 --- /task ---
 
-Now you can use the same sort of combined selector you used to select the links in the menu to select all the images in the gallery and make them the same size. Because `container` is 1200px wide, you're going to use 400px for your image width, so you'll fit three images across. You'll also need to add the `float: left` rule, which will push all the images to the left, so they fit in without gaps or moving on to new lines. Finally, it might be nice to make all the images the same height too. Though, if you are going to set both the width and the height of images, you need to make sure the values you pick are proportional to the original size of the image: if the original file is twice as high as it is wide, then you will need to set a height that's twice the width or it will end up looking wrong. If you only set either the width or the height of an image, the computer will figure out the other one to keep the image proportional. Of course, since these images are being given to you as a set, they've been checked to make sure they are proportional to the numbers you'll be using.
+Now you can use a child selector — like you used to select the links in the menu — to select all the `img` tags in the gallery.
 
 --- task ---
 
-Add CSS to set the `width`, `height`, and `float` of all images in the gallery. Set the `width` and `height` to `400px`, and the `float` to `left`:
+Set the `width` and `height` of all images in the gallery to `400px`, and the `float` to `left`:
 
 ```css
 .gallery img{
     width: 400px;
     height: 400px;
+    /* use float to push all 
+    the images left, so they
+    fit without gaps */
     float: left;
+    
 }
 ```
 
---- /task ---
-
 --- save ---
 
-Congratulations, you've completed the marketing website. You can show it off to your friends and family as an example of your website building skill, but don't let them think the product is actually real!
+**Test:** view `product.html`. Admire your nice neat gallery.
+
+--- /task ---
+
+When you're setting both the width and height of an image like this, it may look a little wrong if you don't match the **aspect ratio** of the image to the measurements you use in your CSS.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Aspect ratio**</span> is the relationship between the width and height of an image. An image that is 200px wide and 100px high has an aspect ratio of 2:1. So does an image that is 500px wide and 250px high. When using CSS to set width and height on the same image you need to maintain this relationship, or the image will look stretched, or squashed. If you only set either the width or the height, the browser will choose the other one to keep the image proportional.
+</p>

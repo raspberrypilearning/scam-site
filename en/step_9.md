@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Summary or upgrade project task
+Add an extra page to the website, with some customer reviews on it. You can find some examples in `reviews.txt`. Update the menu to include a link to this new page.
 </div>
 <div>
 ![](images/image.png){:width="300px"}

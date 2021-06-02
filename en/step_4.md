@@ -1,34 +1,51 @@
 ## Make a header
 
-Still working in `template.html` and `style.css`, it's time to start on making the header for the website. This will appear at the top of every page to remind people which site they're on. Creating this header will require two tags you've seen before: `h1` and `img`.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+You're going to add a header to your page template.
+</div>
+<div>
+[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+</div>
+</div>
+
+Creating this header will require two tags you've seen before: `h1` and `img`.
 
 --- task ---
 
-Add an image inside `header`. Use the `logo.png` file provided, or create your own if you like! Give it the class `logo` and the alt-text 'Our logo'.
+Add an image inside `header`. Give it the class `logo` and the alt-text 'Our logo'.
 
 ```html
 <img src="logo.png" alt="Our logo" class="logo">
 ```
 
+**Choose:** Choose youre own logo, if you like. If you use your own image, put it in the same place as `template.html`.
+
+--- save ---
+
+**Test:** view `template.html` to see the logo.
+
 --- /task ---
 
 --- task ---
 
-Below the image, add a level 1 heading inside `header` that reads 'Translucent Technologies: a vision of the future'. Give it the class `title`.
+Below the image, add a level 1 heading inside `header`. Give it the class `title`.
 
 ```html
 <h1 class="title">Translucent Technologies: a vision of the future</h1>
 ```
 
-Now check how it looks in your browser or preview.
+--- save ---
+
+**Test:** view `template.html` to see the header and logo together.
 
 --- /task ---
 
-That's a little squashed together, and might look better if it had some colour. Time for CSS!
+They're squashed together, and might look better if they had some colour.
 
 --- task ---
 
-In `style.css`, create a style rule for the `title` class that gives the heading a nice colour.
+In `style.css`, create a style rule for the `title` class that gives the heading a `deeppink` colour.
 
 ```css
 .title{
@@ -36,13 +53,19 @@ In `style.css`, create a style rule for the `title` class that gives the heading
 }
 ```
 
+**Choose:** Choose your own colour if you like. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
+
+--- save ---
+
+**Test:** view `template.html` to see the new header colour.
+
 --- /task ---
 
-Now, to create a space between the logo and the heading, you need to tell one or the other to create that gap. To do this, you can set the `margin` on one of them. A future project will show you lots of ways to use `margin`, but for now just use the code below to create a gap to the right of the logo.
+Either the `logo` or the `title` class needs a rule that creates a gap between the heading and the logo. To do this, you can set the `margin` property on one of them.
 
 --- task ---
 
-In `style.css`, create a style rule for the `logo` class that creates a gap to the right of the image.
+In `style.css`, create a rule for the `logo` class that makes a gap to the right of the image.
 
 ```css
 .logo{
@@ -50,10 +73,8 @@ In `style.css`, create a style rule for the `logo` class that creates a gap to t
 }
 ```
 
-You can try different numbers of pixels, until you find one you like.
+--- save ---
 
-Now refresh the page in your browser and check out your improved site header!
+**Test:** view `template.html` to see the spacing.
 
 --- /task ---
-
-Of course, you could also try setting a different `background-color` property on the `header` div, but that's up to you!

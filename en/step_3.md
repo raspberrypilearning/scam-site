@@ -2,22 +2,22 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+You're going to create a template for your website, that you will use to make the other pages.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
 </div>
 </div>
 
 --- task ---
 
-Open `template.html` in your editor and look at the code. Also, open the page in your web browser, or look at it in the preview.
+Open `template.html` and view the webpage.
 
-Notice that the only tag in the `body` of the page right now is a `div` tag with the class `container`. This `div` tag is an invisible box. Next, you'll use CSS to add some style rules to it and make it visible.
+The only tag in the `body` of the page is a `div` tag with the class `container`. You'll use CSS to add some style rules to make the `div` visible.
 
 --- /task ---
 
-To add your CSS, you first need to add your stylesheet to `template.html`.
+To add your CSS, you need to link your stylesheet to `template.html`.
 
 --- task ---
 
@@ -37,11 +37,11 @@ You may notice that there's already one stylesheet, called `company_style.css` l
 
 --- /collapse ---
 
-The design the company wants is the content box over a coloured backgreound that you've probably seen on other websites. At its most basic, it looks like this.
+The company wants a page layout that looks like this:
 
 ![A webpage with a white box in the middle of a blue background.](images/content_box.png)
 
-To start making this, use the CSS file you just linked to add some colour to the page.
+Use the CSS file you just linked to add some colour to the page.
 
 --- task ---
 
@@ -52,20 +52,19 @@ body{
     background-color: lightblue;
 }
 ```
-
-If you don't like this colour, you can choose your own. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
+**Choose:** Choose your own colour if you like. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
 
 --- save ---
 
-Look at how `template.html` has changed. Remember, you may need to refresh the page if you're viewing it in your browser.
+**Test:** `template.html` has changed, view the page to see how.
 
 --- /task ---
 
-You still can't see the `container` div, but that's fine. You haven't given it any style rules yet, so it's still invisible. You'll fix that next.
+You still can't see the `container` `div` so now you will turn it into the white box from the company's design.
 
 --- task ---
 
-In `style.css` add a rule that sets a background colour for the `container` class. Again, you can pick a different colour if you like. Also, add a rule that sets the width of the `div` so it has those coloured borders either side of it.
+In `style.css` add a rule that sets a background colour for the `container` class, and a rule that sets the width of the `div` so it has those coloured borders either side of it.
 
 ```css
 .container{
@@ -74,7 +73,19 @@ In `style.css` add a rule that sets a background colour for the `container` clas
 }
 ```
 
-Type some text into the `container` `div` in `template.html`, like this:
+**Choose:** Choose your own colour if you like. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
+
+--- save ---
+
+**Test:** view `template.html` and see what's happened.
+
+--- /task ---
+
+It looks the same! This is because the `div` has no width, or height. If you add text to the `div`, it will use the width and height of the text.
+
+--- task ---
+
+Type some text into the `container` `div` in `template.html`:
 
 ```html
 <div class="container">
@@ -83,7 +94,7 @@ Type some text into the `container` `div` in `template.html`, like this:
 ```
 --- save ---
 
-Now refresh `template.html` in your browser and see what's happened.
+**Test:** view `template.html` to check that your CSS rules are working.
 
 --- /task ---
 
@@ -95,7 +106,7 @@ Now that you have the content box the company wants, you'll need to add the sect
 
 --- task ---
 
-First, delete the text you added to test the `div` in the last step. Then, create three new `div` tags inside of the `container` `div`. Each should have its own class. For now, you'll also type the name of the `div` into the `div`, so you can see it. A `div` tag with nothing in it is invisible!
+Create three new `div` tags inside of the `container` `div`. Each should have its own class:
 
   + Give the first `div` the `header` class.
   + Give the second `div` the `nav` (short for navigation) class.
@@ -107,15 +118,15 @@ The finished code should look like this:
 <div class="container">
     <div class="header">
         <!-- Page titles and the company logo go here -->
-        Header
+        Hello!
     </div>
     <div class="nav">
         <!-- The navigation menu goes here -->
-        Nav
+        Hello!
     </div>
     <div class="main">
         <!-- The main content of the page goes here -->
-        Main
+        Hello!
     </div>
 </div>
 ```

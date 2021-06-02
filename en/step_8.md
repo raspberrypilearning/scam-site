@@ -1,3 +1,1 @@
 ## Reflection
-
-Reflect upon things

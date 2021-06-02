@@ -1,6 +1,13 @@
 ## Make a homepage
 
-Your template is finished now, so it's time to start making your pages. 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+You're going to use your finished template to make the homepage of the company's webiste.
+</div>
+<div>
+[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+</div>
+</div>
 
 --- task ---
 
@@ -8,22 +15,18 @@ Select all the code in `template.html` and copy it (Edit > Copy), then paste it 
 
 --- /task ---
 
-Once you've pasted the template, you just need to add the text that the company's marketing team have supplied to the page.
-
 --- task ---
 
-Open `marketing.txt` and copy and paste the text from there into the `main` div in `index.html`. Add paragraph (`p`) tags to break it up appropriately.
+Now add the text that the company's marketing team have supplied to the page.
 
---- /task ---
+Open `marketing.txt` and copy and paste the text from there into the `main` `div` in `index.html`. Add paragraph (`p`) tags to break it up appropriately.
 
 --- save ---
 
---- task ---
-
-Open or preview `index.html` to see what you've made.
+**Test:** view `index.html` to see your finished homepage.
 
 --- /task ---
 
 [[Finished example]]
 
-Next, you'll use the template again to create a product gallery page, showing off the product in action.
+The fact you were able to create this page with only a little new code is the main advantage of using templates like the one you made.

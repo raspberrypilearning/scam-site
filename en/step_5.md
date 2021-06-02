@@ -1,23 +1,27 @@
 ## Make a menu
-Now that you've got a beautiful header in place, it's time to add a menu so visitors to the website can find their way around. Menus are usually made by using unordered lists (`ul`) of hyperlinks (`a`) and adding some special CSS rules. So the first thing you'll need to do is make that list.
 
-### Relative links
-When making the menu you'll be linking to pages inside your own site. To do that, you'll have to use links that might be a little different to what you might have seen before. Links to other websites on the internet look like this:
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+You're going to add a menu to your page template,so visitors to the website can find their way around.
+</div>
+<div>
+[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+</div>
+</div>
 
-```html
-<a href="https://example.com/about.html">About us</a>
-```
+Menus are made by using unordered lists (`ul`) of hyperlinks (`a`) and adding some special CSS rules. Links to pages inside your own site are called **relative** links. They are different to the **absolute** links you use to link to other websites on the internet.
 
-If your website isn't directly related to another one, you have to give the full URL (web address) like this — the `https://`, the domain name (example.com), etc. This is called an **absolute** link and is like giving the full street address of a house — anyone can use that information to find it. But links to other pages in your site don't include most of what's in the `href` attribute for an absolute link. If you were making the webiste that lives at `example.com` and you wanted to link to the about page, you'd make a link like this instead:
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Absolute links**</span> use the full address of a page, like `https://example.com/about.html`. This is like giving the full street address of a house — anyone can use that information to find it. 
+</p>
 
-```html
-<a href="about.html">About us</a>
-```
-This is called a **relative** link, because it is relative to where the link is starting from. A relative link is like giving someone directions to a house — 'take the second left, then the thrid right', or the like — the directions only work for someone starting from that spot. For files in the same directory as the one you're starting from, which all of the files in this project are, you only need to give their name. It's like pointing to a house on the same street and saying 'that one'! This is the same way you usually include images with the `src` attribute of the `img` element, or stylesheets with the `href` attribute of the `link` element. You can also use absolute URLs for images and stylesheets too, but you don't usually need to.
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Relative links**</span> include only the steps needed to get to a file from the file containing the link. If they're in the same directory, this is just the name of the file, like `about.html`. This is like giving someone directions to a house — 'take the second left, then the thrid right' — the directions only work for someone starting from that spot. They are used between pages in the same site so they don't need to be changed if the whole site gets moved around the internet.
+</p>
 
 --- task ---
 
-Create a list of hyperlinks to the pages your site will have: the home page (`index.html`) and the product gallery (`product.html`), inside the `nav` div. Give that `ul` the `menu` class.
+Create a list of hyperlinks to the pages your site will have — the home page (`index.html`) and the product gallery (`product.html`) — inside the `nav` div. Give that list the `menu` class.
 
 ```html
 <ul class="menu">
@@ -29,21 +33,21 @@ Create a list of hyperlinks to the pages your site will have: the home page (`in
     </li>
 </ul>
 ```
+--- save ---
 
-Now refresh the page and check that your links work properly. If they don't, check that the files exist, and that you have spelt their names correctly.
+**Test:** view `template.html` to see the list.
+
 --- /task ---
 
-### Style your menu
-
-Now you have a working list of links and, thanks to some code in `company_style.css` that will be covered in a later project, they're going across rather than down the page. 
+Thanks to some code in `company_style.css`, the links are going across, rather than down, the page. 
 
 [[Image of same]]
 
-But they still look like hyperlinks in text, not the shiny menu the company wants on their website. So it's time for some more CSS!
+The links still have the same style as they would in a paragraph of text. Use a little CSS to make them look different.
 
 --- task ---
 
-In `style.css` create a `menu` class and use it to set a nice background colour and turn off the bullet points on the list.
+In `style.css` create a `menu` class and use it to set a background colour and turn off the bullet points on the list.
 
 ```css
 .menu{
@@ -52,21 +56,14 @@ In `style.css` create a `menu` class and use it to set a nice background colour 
 }
 ```
 
+**Choose:** Choose your own colour if you like. You can find a list on [this page](https://www.w3schools.com/colors/colors_names.asp).
 --- /task ---
 
-Now you need to change the colour of the text on the links, and get rid of the underlines. You could create a class for the `a` tags, but there's another way to do this: you only want to change links that are inside the `menu` div. You can write a CSS rule that only effects them by writing a rule with a selector that only targets `a` tags that are **children** of an element with the `menu` class. An element's children are those tags that are between its opening and closing tags. That selector would look like this:
-
-```css
-.menu a{
-    /** Rules go here **/
-}
-```
-
-The space between them means 'child of'. There are a lot of ways to combine selectors, but this is one of the most useful.
+Change the colour of the text on the links, and get rid of the underlines. 
 
 --- task ---
 
-Create a rule that targets hyperlinks in the menu and gives them a distinctive colour. Also, use the `text-decoration` property to turn off the underline.
+To only change links that are inside the `menu` div, you can use the **child selector**. 
 
 ```css
 .menu a{
@@ -74,14 +71,15 @@ Create a rule that targets hyperlinks in the menu and gives them a distinctive c
     text-decoration: none;
 }
 ```
---- /task ---
+
+The space between `.menu` and `a` means 'child of'.
 
 --- save ---
 
---- task ---
-Now refresh your page and look at your finished menu!
+**Test:** view `template.html` to see your finished menu.
+
 --- /task ---
 
-[[Image of same]]
-
-That's the template finished! Now you can move on to using it to create a website.
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Children**</span> of an element are all the elements that are inside it. In the code `<a href="index.html"> <img src="home.jpg" /> </a>`, the `img` tag is the child of the `a` tag. The `a` tag could also be called the **parent** of the `img` tag.
+</p>
