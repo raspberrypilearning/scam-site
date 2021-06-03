@@ -6,6 +6,7 @@ You will:
   + Make a template to let you build your pages faster
   + Create a navigation menu to link your site's pages together
   + Use CSS selectors to target HTML elements inside other HTML elements
+  + 
 
 --- no-print ---
 --- task ---
@@ -15,7 +16,7 @@ You will:
 Description of what to do or think about when looking at the example.
 </div>
 <div style="margin-left: 15px;">
-  <iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 --- /task ---
