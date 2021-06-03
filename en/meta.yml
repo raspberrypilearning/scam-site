@@ -1,0 +1,23 @@
+title: scam-site
+hero_image: images/banner.png
+description: scam-site description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-05-06"
+steps:
+  - title: Introduction
+  - title: Get setup
+  - title: Make a page template
+  - title: Make a header
+  - title: Make a menu
+  - title: Make a homepage
+  - title: Make a photo gallery
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
+  - title: What next?
