@@ -14,7 +14,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-Which of these is the code for linking from `index.html` to `product.html` in the site you have just built?
+Which of these is the correct code for linking from `index.html` to `product.html` in the site you have just built?
 
 --- choices ---
 
@@ -32,7 +32,7 @@ Which of these is the code for linking from `index.html` to `product.html` in th
 - ( ) `<a href="https://oursite.com/product.html"> our product gallery </a>`
 
   --- feedback ---
-  This is an absolute link, and will work if the website exists at `oursite.com`. If it doesn't, or if the site moves to any other domain (e.g. `newsite.com`), then this link will break. There is a way to avoid this.
+  This is an absolute link, and will work if, and only if, the website exists at `oursite.com`. If it doesn't, or if the site moves to any other domain (e.g. `newsite.com`), then this link will break. There is a way to avoid this.
   --- /feedback ---
 
 - (x) `<a href="product.html"> our product gallery </a>`

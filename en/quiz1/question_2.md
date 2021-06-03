@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-If you had this webpage, which CSS selector would target only the image in the `pop_out` `div`?
+If you had this HTML on your webpage, which CSS selector would target only the image in the `pop_out` `div`?
 
 ```HTML
 <img src="example.jpg" />
