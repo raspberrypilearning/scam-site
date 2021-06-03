@@ -81,5 +81,8 @@ The space between `.menu` and `a` means 'child of'.
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Children**</span> of an element are all the elements that are inside it. In the code `<a href="index.html"> <img src="home.jpg" /> </a>`, the `img` tag is the child of the `a` tag. The `a` tag could also be called the **parent** of the `img` tag.
+<span style="color: #0faeb0">**Children**</span> of an element are all the elements that are inside it. In the code below, the `img` tag is the child of the `a` tag. The `a` tag could also be called the **parent** of the `img` tag.
+```HTML
+<a href="index.html"> <img src="home.jpg" /> </a>
+```
 </p>
