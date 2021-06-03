@@ -51,7 +51,7 @@ In `style.css` create a `menu` class and use it to set a background colour and t
 
 ```css
 .menu{
-    background-color: violet;
+    background-color: purple;
     list-style-type: none;
 }
 ```

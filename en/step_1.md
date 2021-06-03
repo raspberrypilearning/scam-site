@@ -11,14 +11,7 @@ You will:
 --- no-print ---
 --- task ---
 ### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Description of what to do or think about when looking at the example.
-</div>
-<div style="margin-left: 15px;">
-  <iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
-</div>
+<iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 --- /task ---
 --- /no-print ---
 
