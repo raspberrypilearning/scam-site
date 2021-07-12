@@ -8,12 +8,18 @@ You will:
   + Use CSS selectors to target HTML elements inside other HTML elements
 
 --- no-print ---
+
 --- task ---
 ### Try it
+
 <iframe src="https://trinket.io/embed/html/454ba316f9?outputOnly=true&runMode=autorun" width="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
+
 ![Completed project](images/showcase.png)
+
 --- /print-only ---
