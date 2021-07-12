@@ -15,7 +15,7 @@ Add an extra page to the website, with some customer reviews on it. You can find
 title: Completed project
 ---
 
-You can view the [completed project here](#){:target="_blank"}.
+You can view the [completed project here](https://trinket.io/embed/html/454ba316f9){:target="_blank"}.
 
 --- /collapse ---
 

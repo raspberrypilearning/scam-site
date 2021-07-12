@@ -6,7 +6,6 @@ You will:
   + Make a template to let you build your pages faster
   + Create a navigation menu to link your site's pages together
   + Use CSS selectors to target HTML elements inside other HTML elements
-  + 
 
 --- no-print ---
 --- task ---

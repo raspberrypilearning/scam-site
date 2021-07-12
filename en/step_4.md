@@ -5,7 +5,7 @@
 You're going to add a header to your page template.
 </div>
 <div>
-[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+![A title and logo, appearing inside a white box against a blue background.](images/step_4_preview.png)
 </div>
 </div>
 
@@ -19,7 +19,9 @@ Add an image inside `header`. Give it the class `logo` and the alt-text 'Our log
 <img src="logo.png" alt="Our logo" class="logo">
 ```
 
-**Choose:** Choose youre own logo, if you like. If you use your own image, put it in the same place as `template.html`.
+<mark>Going to ask design to make a fun little logo asset here. It can be reused in the header art. Right now, it's a bit of stock photo.</mark>
+
+**Choose:** Choose youre own logo, if you like. If you're not working in Trinket put the image in the same place as `template.html`.
 
 --- save ---
 

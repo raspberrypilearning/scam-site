@@ -18,7 +18,9 @@ Which of these is the correct code for linking from `index.html` to `product.htm
 
 --- choices ---
 
-- ( ) `<a>product.html</a>`
+- ( ) ```html
+<a>product.html</a>
+```
 
   --- feedback ---
   This will display a broken link, where the text of the link is "product.html". The URL for the target of a link needs to be in the `href` atribute of the tag, with the text of the link appearing between the opening and closing tags, like this:
@@ -29,7 +31,9 @@ Which of these is the correct code for linking from `index.html` to `product.htm
 
   --- /feedback ---
 
-- ( ) `<a href="https://oursite.com/product.html"> our product gallery </a>`
+- ( ) ```html
+<a href="https://oursite.com/product.html"> our product gallery </a>
+```
 
   --- feedback ---
   This is an absolute link, and will work if, and only if, the website exists at `oursite.com`. If it doesn't, or if the site moves to any other domain (e.g. `newsite.com`), then this link will break. There is a way to avoid this.

@@ -5,7 +5,7 @@
 You're going to create a template for your website, that you will use to make the other pages.
 </div>
 <div>
-[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+![A white box on a blue background, with "Hello!" appearing three times in the box.](images/step_3_preview.png)
 </div>
 </div>
 

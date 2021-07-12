@@ -5,7 +5,7 @@
 You're going to add a menu to your page template,so visitors to the website can find their way around.
 </div>
 <div>
-[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
+![A title and logo, appearing inside a white box against a blue background, with a menu appearing below them.](images/step_5_preview.png)
 </div>
 </div>
 
@@ -32,7 +32,7 @@ Create a list of hyperlinks to the pages your site will have — the home page (
         <a href="product.html">Our product</a>
     </li>
 </ul>
-```
+``` 
 --- save ---
 
 **Test:** view `template.html` to see the list.
@@ -82,7 +82,9 @@ The space between `.menu` and `a` means 'child of'.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Children**</span> of an element are all the elements that are inside it. In the code below, the `img` tag is the child of the `a` tag. The `a` tag could also be called the **parent** of the `img` tag.
+
 ```HTML
 <a href="index.html"> <img src="home.jpg" /> </a>
 ```
+
 </p>
