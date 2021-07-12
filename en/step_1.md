@@ -15,5 +15,5 @@ You will:
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png)
+![Completed project](images/showcase.png)
 --- /print-only ---
