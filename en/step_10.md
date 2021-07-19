@@ -1,17 +1,15 @@
 ## What next?
 
-If you are following the [WEB1NEEDSANAME](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [Mood Board](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a webpage that collects images, quotes, and videos and lays them out in a grid. 
+If you are following the [WEB1NEEDSANAME](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [Board project still needs a good name](https://projects.raspberrypi.org/en/projects/my_board) project. In this project, you will make a webpage that collects images, quotes, and videos and lays them out in a grid. 
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![ProjectName project](images/next_project.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
-</div>
+<a href="https://philhar.trinket.io/sites/project_4" target="_blank"><img src="images/page_preview.png"></a>
 
 --- /no-print ---

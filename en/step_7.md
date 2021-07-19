@@ -3,9 +3,6 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You're going to use your finished template to make a product gallery.
-<div>
-[[Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}]]
-</div>
 </div>
 
 --- task ---
